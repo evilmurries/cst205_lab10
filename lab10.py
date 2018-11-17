@@ -1,7 +1,9 @@
 #Lab 10 - Team 10
+# M. Mariscal, W. Robleh, C. Piwarski
+
+
 #Warm UP
 #PART A:
-
 def warmup():
   while True:
     name = requestString("Enter a word")
