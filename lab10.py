@@ -66,7 +66,7 @@ def hangman():
       else:
         badCharacter = True
         print 'Incorrect input. Enter in a single letter'
-      print 'You have %d out of %d guesses left' % (incorrectGuesses, guessCount)
+      print 'You have used %d out of %d guesses left' % (incorrectGuesses, guessCount)
   if incorrectGuesses == 6:
   	print 'Sorry please play again'
   else:
