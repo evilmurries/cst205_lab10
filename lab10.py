@@ -75,6 +75,8 @@ def hangman():
 def checkInput(input):
   if len(input) > 1:
     return False
+  if input == '':
+    return False
   value = ord(input)
   if value > 64 and value < 90:
     return True
