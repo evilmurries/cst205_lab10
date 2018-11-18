@@ -8,7 +8,7 @@ def warmup():
   while True:
     name = requestString("Enter a word")
     if name == ("stop"):
-            break
+      break
 
 
 # https://www.poftut.com/python-how-to-print-without-newline-or-space/
@@ -66,7 +66,7 @@ def hangman():
       else:
         badCharacter = True
         print 'Incorrect input. Enter in a single letter'
-      print 'You have used %d out of %d guesses left' % (incorrectGuesses, guessCount)
+      print 'You have used %d out of %d guesses' % (incorrectGuesses, guessCount)
   if incorrectGuesses == 6:
   	print 'Sorry please play again'
   else:
