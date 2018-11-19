@@ -25,8 +25,12 @@ def hangman():
   guessCount = 6
   guessedLetters = ''
   incorrectGuesses = 0
-  description = 'Explain the game'
-  print description
+  description = 'To play hangman you must guess characters to fill in the word. '
+  rules1 = 'You are allowed six incorrect guesses. '
+  rules2 = 'When you guess a correct letter then it will fill in one of the blank spaces.\n'
+  
+  #print directions and status
+  print description + rules1 + rules2
   print ('Total Amount of Guesses: %d' % guessCount) #String Formatting. First String Op
   
   #begin game
